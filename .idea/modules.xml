@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Dagger2Examples.iml" filepath="$PROJECT_DIR$/.idea/modules/Dagger2Examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Dagger2Examples_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Dagger2Examples_main.iml" group="Dagger2Examples" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Dagger2Examples_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Dagger2Examples_test.iml" group="Dagger2Examples" />
+    </modules>
+  </component>
+</project>
