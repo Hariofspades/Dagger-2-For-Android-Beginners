@@ -1,7 +1,19 @@
 group 'com.hariofspades.dagger2'
 version '1.0-SNAPSHOT'
 
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath "net.ltgt.gradle:gradle-apt-plugin:0.3"
+    }
+}
 apply plugin: 'java'
+apply plugin: "net.ltgt.apt"
+apply plugin:'idea'
 
 sourceCompatibility = 1.8
 
@@ -11,4 +23,6 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    apt 'com.google.dagger:dagger-compiler:2.13'
+    compile 'com.google.dagger:dagger:2.13'
 }
