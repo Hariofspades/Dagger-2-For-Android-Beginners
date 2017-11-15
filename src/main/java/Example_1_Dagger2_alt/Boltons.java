@@ -1,14 +1,15 @@
-package Example_1_Dagger2;
+package Example_1_Dagger2_alt;
 
 import javax.inject.Inject;
 
 /**
  * Created by Hari on 04/11/17.
  */
-public class Starks implements House {
+public class Boltons implements House {
 
     @Inject
-    public Starks(){
+    public Boltons(){
+
     }
 
     @Override

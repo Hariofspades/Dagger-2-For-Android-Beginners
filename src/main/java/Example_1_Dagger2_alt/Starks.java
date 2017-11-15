@@ -1,4 +1,4 @@
-package Example_1_Dagger2;
+package Example_1_Dagger2_alt;
 
 import javax.inject.Inject;
 

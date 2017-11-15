@@ -1,4 +1,9 @@
-package Example_1_Dagger2;
+package Example_1_Dagger_2_alt;
+
+import Example_1_Dagger2_alt.BattleComponent;
+import Example_1_Dagger2_alt.Boltons;
+import Example_1_Dagger2_alt.Starks;
+import Example_1_Dagger2_alt.War;
 
 import javax.annotation.Generated;
 

@@ -10,8 +10,8 @@ import javax.inject.Inject;
  */
 public class Boltons implements House {
 
-   @Inject
-   public Boltons(){
+    @Inject
+    public Boltons(){
 
     }
 

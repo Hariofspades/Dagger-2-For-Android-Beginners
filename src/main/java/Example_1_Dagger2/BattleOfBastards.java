@@ -10,6 +10,8 @@ import dagger.Component;
 @Component
 interface BattleComponent {
     War getWar();
+    Starks getStarks();
+    Boltons getBoltons();
 }
 
 public class BattleOfBastards {
